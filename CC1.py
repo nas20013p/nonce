@@ -48,7 +48,7 @@ def run_chain():
     client.publish("mine","CC1 wins done")
     mine = ""
     print(x)
-    nonce = nonce+2
+    nonce = nonce+5
     b.compHash()
 
 
