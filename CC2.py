@@ -91,7 +91,7 @@ class BlockMqtt:
         self.interrupted = True
         break
 
-      nonce = nonce + 5
+      nonce = nonce + 9
       self.compHash()
 
     return self
